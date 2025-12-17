@@ -1,24 +1,3 @@
-
-package com.example.demo.service;
-
-import java.util.List;
-
-import com.example.demo.entity.StudentEntity;
-
-public interface StudentService {
-
-    public StudentEntity addStudents(StudentEntity student);
-
-    public List<StudentEntity> getStudents();
-
-    public StudentEntity getStudentById(Long id);
-
-    public void deleteStudentById(Long id);
-
-}
-
-j ibrahim
-2:49 PM
 package com.example.demo.service.impl;
 
 import java.util.List;
@@ -57,4 +36,3 @@ public class StudentServiceImpl implements StudentService {
     }
 
 }
-ran-mzts-mvq
