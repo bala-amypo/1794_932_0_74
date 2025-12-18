@@ -16,7 +16,7 @@ public class StudentEntity {
     private float cgpa;
 
     public StudentEntity(String name, String email, float cgpa) {
-       
+        this.id
         this.name = name;
         this.email = email;
         this.cgpa = cgpa;
